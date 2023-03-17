@@ -1,17 +1,43 @@
-.profile {}
+.profile {
+    color: red;
+}
 
-.description {}
+.description {
+    color: green;
+}
 
-.avatar {}
+.avatar {
+    border-radius: 75%;
+}
 
-.name {}
+.name {
+    color: gold;
+    display: flex;
+    justify-content: center;
+}
 
-.tag {}
+.tag {
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
 
-.location {}
+.location {
+    color: aqua;
+    display: flex;
+    justify-content: center;
+}
 
-.stats {}
+.stats {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
 
-.label {}
+.label {
+    color: blueviolet;
+}
 
-.quantity {}
+.quantity {
+    color: teal;
+}
