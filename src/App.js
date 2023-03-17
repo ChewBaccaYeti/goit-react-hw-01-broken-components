@@ -1,5 +1,7 @@
 import Profile from './components/profile/Profile';
+import Statistics from './components/statistics/Statistics';
 import user from './database/user.json';
+import data from './database/data.json';
 import styles from './App.module.css';
 
 function App() {

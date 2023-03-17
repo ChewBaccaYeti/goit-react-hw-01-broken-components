@@ -1,6 +1,5 @@
 .profile {
     background-color: goldenrod;
-    color: red;
 }
 
 .description {
@@ -12,7 +11,7 @@
 }
 
 .name {
-    color: gold;
+    color: red;
     display: flex;
     justify-content: center;
 }

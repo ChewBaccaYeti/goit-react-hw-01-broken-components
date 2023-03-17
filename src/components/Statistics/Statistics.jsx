@@ -28,7 +28,24 @@ function Statistics(props) {
     );
 }
 
-// import data from '/path/to/data.json';
+Statistics.propTypes = {};
 
-// <Statistics title="Upload stats" stats={data} />
-// <Statistics stats={data} />
+export default Statistics;
+
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+let button = document.getElementById('butId');
+
+button.addEventListener('click', function (e) {
+    let tags = document.getElementsByTagName('p');
+    for (let i = 0; i < tags.length; i++) {
+        tags[i].style.border = '1px solid' + getRandomColor();
+    }
+});
