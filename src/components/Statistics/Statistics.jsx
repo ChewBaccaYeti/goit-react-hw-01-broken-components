@@ -5,7 +5,6 @@ function Statistics(props) {
     return (
         <section className={styles.statistics}>
             <h2 className={styles.title}>Upload stats</h2>
-
             <ul className={styles.stat_list}>
                 <li className={styles.item}>
                     <span className={styles.label}>.docx</span>
@@ -35,20 +34,20 @@ Statistics.propTypes = {
 
 export default Statistics;
 
-function getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-}
+// function getRandomColor() {
+//     var letters = '0123456789ABCDEF';
+//     var color = '#';
+//     for (var i = 0; i < 6; i++) {
+//         color += letters[Math.floor(Math.random() * 16)];
+//     }
+//     return color;
+// }
 
-let button = document.getElementById('butId');
+// let button = document.getElementById('butId');
 
-button.addEventListener('click', function (e) {
-    let tags = document.getElementsByTagName('li');
-    for (let i = 0; i < tags.length; i++) {
-        tags[i].style.background = getRandomColor();
-    }
-});
+// button.addEventListener('click', function (e) {
+//     let tags = document.getElementsByTagName('li');
+//     for (let i = 0; i < tags.length; i++) {
+//         tags[i].style.background = getRandomColor();
+//     }
+// });
