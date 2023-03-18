@@ -28,7 +28,10 @@ function Statistics(props) {
     );
 }
 
-Statistics.propTypes = {};
+Statistics.propTypes = {
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired,
+};
 
 export default Statistics;
 
@@ -44,8 +47,8 @@ function getRandomColor() {
 let button = document.getElementById('butId');
 
 button.addEventListener('click', function (e) {
-    let tags = document.getElementsByTagName('p');
+    let tags = document.getElementsByTagName('li');
     for (let i = 0; i < tags.length; i++) {
-        tags[i].style.border = '1px solid' + getRandomColor();
+        tags[i].style.background = getRandomColor();
     }
 });
