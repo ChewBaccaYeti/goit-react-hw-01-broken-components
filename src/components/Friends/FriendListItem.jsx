@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import styles from './FriendList.module.css';
+import styles from './FriendList.styled.jsx';
+import FriendList from './FriendList.jsx';
 
 function FriendListItem({ isOnline, avatar, name }) {
     return (

@@ -1,11 +1,35 @@
-.item {}
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
-.label {}
+.label {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #09487c;
+}
 
-.percentage {}
+.percentage {
+    display: flex;
+}
 
-.statistics {}
+.statistics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80px;
+    height: 80px;
+    color: #ffffff;
+    flex-direction: column;
+    border: 1px solid white;
+}
 
-.title {}
+.title {
+    font-size: 12px;
+}
 
-.stat_list {}
+.stat_list {
+    font-size: 20px;
+}

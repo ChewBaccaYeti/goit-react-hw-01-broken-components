@@ -1,13 +1,11 @@
 import styled from 'styled-components';
+import FriendList from './FriendList';
 
 export const Status = styled.span`
     display: block;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: ${(props) => {
-        return props.isOnline ? 'green' : 'red';
-    }};
 `;
 
 export const Avatar = styled.img`
@@ -15,3 +13,5 @@ export const Avatar = styled.img`
 `;
 
 export const Name = styled.p``;
+
+export default FriendList;

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import styles from './FriendList.module.css';
-import { FriendListItem } from './FriendListItem';
+import styles from './FriendList.styled.jsx';
+import FriendListItem from './FriendListItem.jsx';
 
 function FriendList({ friends }) {
     const friendListItems = friends.map(function (item) {

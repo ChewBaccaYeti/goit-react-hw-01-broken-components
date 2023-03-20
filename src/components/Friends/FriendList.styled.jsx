@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import FriendListItem from './FriendListItem';
 
 export const List = styled.ul`
     display: flex;
@@ -14,3 +15,5 @@ export const Item = styled.li`
     border-radius: 10px;
     background-color: #ffffff;
 `;
+
+export default FriendListItem;
