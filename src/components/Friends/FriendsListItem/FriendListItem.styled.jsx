@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import FriendList from './FriendList';
+import FriendList from '../FriendsList/FriendList';
 
 export const Status = styled.span`
     display: block;
