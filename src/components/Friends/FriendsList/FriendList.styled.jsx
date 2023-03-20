@@ -1,19 +1,17 @@
 import styled from 'styled-components';
-import FriendListItem from '../FriendsListItem/FriendListItem';
 
-export const List = styled.ul`
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+export const Status = styled.span`
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: ${(props) => {
+        return props.isOnline ? 'green' : 'red';
+    }};
 `;
 
-export const Item = styled.li`
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: #ffffff;
+export const Avatar = styled.img`
+    width: 48px;
 `;
 
-export default FriendListItem;
+export const Name = styled.p``;
