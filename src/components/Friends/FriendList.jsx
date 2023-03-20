@@ -13,9 +13,15 @@ function FriendList({ friends }) {
             />
         );
     });
-    return <ul className={styles.FriendList}>{friendListItems}</ul>;
+    return <ul className={styles.friendList}>{friendListItems}</ul>;
 }
 
-FriendList.propTypes = {};
+FriendList.propTypes = {
+    friends: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.number.isRequired,
+        }).isRequired
+    ),
+};
 
 export default FriendList;
