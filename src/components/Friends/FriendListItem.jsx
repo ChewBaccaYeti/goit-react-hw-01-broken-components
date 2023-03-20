@@ -11,4 +11,12 @@ function FriendListItem({ isOnline, avatar, name }) {
     );
 }
 
+FriendListItem.propTypes = {
+    friend: PropTypes.shape({
+        avatar: PropTypes.string.isRequired,
+        name: PropTypes.string.isRequired,
+        isOnline: PropTypes.bool.isRequired,
+    }),
+};
+
 export default FriendListItem;
