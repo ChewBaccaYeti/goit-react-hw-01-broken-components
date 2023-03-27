@@ -3,20 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://chewbaccayeti.github.io/goit-react-hw-01-components/",
-  "scripts": {
-    "start": "parcel src/*.html --open",
-    "build": "parcel build src/*.html --public-url /goit-react-hw-01-components/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChewBaccaYeti/parcel-project-template-goit-hw-08.git"
-  },
-  "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
